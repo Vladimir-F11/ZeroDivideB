@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Divide Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="calculator">
+
+    <h1>Zero Divide Calculator</h1>
+
+    <input id="display" type="text" readonly>
+
+    <div class="buttons">
+
+        <button onclick="pressButton('7')">7</button>
+        <button onclick="pressButton('8')">8</button>
+        <button onclick="pressButton('9')">9</button>
+
+        <button onclick="pressButton('4')">4</button>
+        <button onclick="pressButton('5')">5</button>
+        <button onclick="pressButton('6')">6</button>
+
+        <button onclick="pressButton('1')">1</button>
+        <button onclick="pressButton('2')">2</button>
+        <button onclick="pressButton('3')">3</button>
+
+        <button onclick="pressButton('C')">C</button>
+        <button onclick="pressButton('0')">0</button>
+        <button onclick="pressButton('÷0')">÷0</button>
+
+        <button class="equals" onclick="pressButton('=')">=</button>
+
+    </div>
+
+
+    <div id="status" class="status">
+        Sorry, this calculator is not working.
+    </div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
